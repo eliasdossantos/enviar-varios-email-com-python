@@ -3,6 +3,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
 
+# Devemos instalar a biblioteca ( pip install secure-smtplib ) do python pelo cmd.
+
+
 # Aqui é o comando que vai pegar a planilha com qual vamos utilizar para mandas as informações para cada e-mail.
 clientes = pd.read_excel('./clientes.xlsx')
 
